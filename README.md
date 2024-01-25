@@ -24,3 +24,21 @@ E-Sports Manager offers a variety of features to cater to the needs of the E-spo
 ## Installation
 
 To get started with E-Sports Manager, follow these steps:
+1. Clone the repository:
+```bash
+git clone https://github.com/dvvin/E-Sports-Manager.git
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Start the server:
+```bash
+npm run server && npm run start
+OR
+npm run conc
+```
+4. Open the browser and navigate to http://localhost:3000
+
+## Homepage Example:
+![Homepage](./public/homepage.png)
