@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- ------------------- -->
+
+    <!-- google icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- --------------- -->
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/profile-settings.css">
+    <title>Esports Manager</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-site-logo-container"><img
+                src="https://www.pngkey.com/png/detail/141-1416946_logos-what-is-a-generic-logo-transparent-background.png"
+                alt="image of site logo">
+        </div>
+
+        <div class="nav-site-name">Esports Manager</div>
+        <div class="nav-links">
+            <ul class="nav-signed-out-items">
+                <li><button>Sign Up</button></li>
+                <li><button>Log In</button></li>
+            </ul>
+            <ul class="nav-signed-in-items">
+                <li><input type="image"
+                        src="https://media.istockphoto.com/id/1223671392/vector/default-profile-picture-avatar-photo-placeholder-vector-illustration.jpg?s=612x612&w=0&k=20&c=s0aTdmT5aU6b8ot7VKm11DeID6NctRCpB755rA1BIP0="
+                        alt="profile icon"></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="profile-settings-header">Settings</h1>
+
+    <!-- edit profile picture -->
+
+
+    <main class="profile-settings-container">
+
+        <section class="edit-profile-picture-section">
+            <h2 class="edit-profile-picture-header">Profile Picture</h2>
+            <div class="profile-picture-settings-panel-container">
+                <div class="profile-picture-container">
+                    <img src="https://w0.peakpx.com/wallpaper/149/331/HD-wallpaper-mortal-kombat-sub-zero-mk-sub-zero.jpg"
+                        alt="profile picture" class="profile-picture">
+                </div>
+                <div class="upload-profile-picture-container">
+                    <div class="upload-profile-picture-buttons-container">
+                        <button class="btn upload-profile-picture">Upload Profile Picture</button>
+                        <button class="delete-profile-picture"> <span class="material-symbols-outlined">
+                                delete
+                            </span></button>
+                    </div>
+                    <p class="profile-picture-upload-text">Upload or Delete Profile Picture.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="edit-profile-banner-section">
+            <h2 class="edit-profile-banner-header">Profile Background</h2>
+            <div class="edit-profile-banner-panel">
+                <div class="profile-banner-container">
+                    <img src="https://e1.pxfuel.com/desktop-wallpaper/440/47/desktop-wallpaper-mortal-kombat-scorpion-subzero-u-scorpion-u.jpg"
+                        alt="image of banner">
+                </div>
+                <div class="upload-banner-container">
+                    <div class="upload-banner-buttons-container">
+                        <button class="btn upload-banner">Upload Background Picture</button>
+                        <button class="delete-profile-banner"> <span class="material-symbols-outlined">
+                                delete
+                            </span></button>
+                    </div>
+                    <p class="upload-banner-text">Upload or Delete Profile Background Picture.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="edit-profile-information-section">
+            <section class="edit-profile-heading-container">
+                <h2 class="edit-profile-info-header">Profile Settings</h2>
+                <p class="edit-profile-info-subtext">Edit Account Details</p>
+            </section>
+            <section class="edit-profile-username-panel">
+                <div class="username-label">
+                    <label for="username">Username</label>
+                </div>
+                <div class="username-input-form-container">
+                    <input type="text" class="username-input" placeholder="CoolGuy75" id="username">
+                    <p class="username-detail-text">Update Username</p>
+                </div>
+            </section>
+
+            <section class="edit-profile-bio-panel">
+                <div class="bio-label">
+                    <label for="bio">Bio</label>
+                </div>
+                <div class="bio-input-form-container">
+                    <textarea name="bio" id="bio" cols="85" rows="5" maxlength="300"
+                        placeholder="User bio goes here........"></textarea>
+                    <p class="bio-detail-text">Enter a Bio up to 300 Characters </p>
+                </div>
+            </section>
+
+            <section class="edit-email-address-panel">
+                <div class="email-label">
+                    <label for="email-address">Email Address</label>
+                </div>
+                <div class="email-input-form-container">
+                    <input type="email" id="email-address" placeholder="email user has signed up with">
+                    <p class="email-detail-text">Current Registered Email Address</p>
+                </div>
+            </section>
+
+            <section class="save-changes-panel">
+                <button class="btn save-changes">Save Changes</button>
+            </section>
+        </section>
+
+        <section class="profile-buttons">
+            <button class="btn log-out">Log Out</button>
+            <button class="btn delete-profile">Delete Account</button>
+        </section>
+
+    </main>
+</body>
+
+</html>

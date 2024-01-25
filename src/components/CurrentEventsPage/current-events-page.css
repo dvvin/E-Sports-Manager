@@ -1,0 +1,16 @@
+.current-tournaments-label {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-top: 5rem;
+}
+
+.current-tournaments-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 5rem;
+}

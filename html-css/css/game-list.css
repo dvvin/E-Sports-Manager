@@ -1,0 +1,79 @@
+.banner-section {
+    width: 100%;
+    height: 25vh;
+    background-image: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/isBqQ09k04Mc/v1/-1x-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    border-bottom: 2px solid black;
+}
+
+.browse-game-header {
+    padding-top: 1rem;
+    position: relative;
+    text-align: center;
+    top: 5vh;
+    color: white;
+    font-size: 5rem;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.game-cards-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+
+.browse-games-subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5rem;
+    background-color: #6c757d;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+}
+
+.seach-game-container {
+    display: flex;
+}
+
+.seach-game-container span {
+    position: relative;
+    top: 0.25rem;
+    left: 2rem;
+    font-size: 1.75rem;
+    color: black;
+}
+
+.search-game-input {
+    width: 10rem;
+    height: 1.75rem;
+    padding-left: 2rem;
+}
+
+.sort-by-container {
+    display: flex;
+    gap: 1rem;
+}
+
+
+@media (max-width: 1200px) {
+    .game-cards-section {
+        gap: 3rem;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .game-cards-section {
+        gap: 1rem;
+    }
+}

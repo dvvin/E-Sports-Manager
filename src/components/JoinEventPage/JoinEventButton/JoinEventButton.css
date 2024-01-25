@@ -1,0 +1,32 @@
+.join-event-button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 3rem;
+}
+
+.btn.join-event {
+    text-align: center;
+    width: 15rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #9b5de5;
+    color: white;
+    border: 2px solid black;
+    transition: border-radius 0.55s, background-color 0.25s;
+}
+
+.btn.join-event:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #7209b7;
+    
+}
+
+.btn.join-event:active {
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #5b0594;
+    
+}

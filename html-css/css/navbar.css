@@ -1,0 +1,60 @@
+.navbar {
+    display: flex;
+    background-color: #4b5267;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav-site-logo-container img {
+    width: 200px;
+    background-color: red;
+}
+
+.nav-site-name {
+    position: relative;
+    left: 2rem;
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    white-space: nowrap;
+
+}
+
+.nav-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-signed-out-items li button {
+    width: 7rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: #9b5de5;
+    border: 2px solid black;
+    transition: background-color 0.25s;
+
+}
+
+.nav-signed-out-items li button:hover {
+    border-width: 2px;
+    background-color: #7209b7;
+    cursor: pointer;
+}
+
+.nav-signed-in-items li button:active {
+    background-color: #5b0594;
+
+}
+
+.nav-signed-in-items li input[type=image] {
+    width: 3rem;
+    border-radius: 50px;
+    margin-left: 6.5rem;
+    display: none;
+}

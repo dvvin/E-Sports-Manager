@@ -1,0 +1,130 @@
+.tournament-card {
+
+    width: 537px;
+    height: auto;
+    background-color: #edede9;
+    box-shadow: 0 2px 5px 0;
+    color: #495057;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+    overflow: hidden;
+    transition: transform 0.5s, border 0.5s, box-shadow 0.15s;
+    margin-bottom: 1rem;
+}
+
+.tournament-card-header {
+    width: 100%;
+}
+
+.tournament-card-image {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.tournament-card-image img {
+    width: 100%;
+    height: 25rem;
+    object-fit: fill;
+}
+
+.tournament-card-title {
+    width: 100%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+
+    padding-left: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #495057;
+}
+
+.tournament-card-info ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tournament-card-info ul li {
+    width: 2eem;
+    margin: 1rem 1rem 1rem 1rem;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+
+.material-symbols-outlined {
+    color: rgb(34, 34, 34);
+    position: relative;
+    top: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.tournament-card:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0 2px 5px 6px;
+    border: 1px solid #777;
+    cursor: pointer;
+}
+
+.tournament-card:active {
+    transform: translateY(-1rem);
+    box-shadow: 0 2px 5px 6px;
+    border: 1px solid #ffd100;
+    cursor: pointer;
+}
+
+
+.tournament-card-date .material-symbols-outlined {
+    color: #18c454;
+}
+
+.tournament-card-attendees .material-symbols-outlined {
+    position: relative;
+    top: 0.5rem;
+    color: #18c454;
+}
+
+.tournament-card-location .material-symbols-outlined {
+    color: #18c454;
+}
+
+
+@media (max-width: 1201px) {
+    .tournament-card {
+
+        width: 250px;
+        height: auto;
+        background-color: white;
+        box-shadow: 0 2px 5px 0;
+        color: #777;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        align-items: center;
+        overflow: hidden;
+        transition: transform 0.5s, border 0.5s, box-shadow 0.15s;
+        margin-bottom: 1rem;
+    }
+
+    .tournament-card-info ul {
+        flex-wrap: wrap;
+    }
+
+    .tournament-card-title {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+    
+        padding-left: 0.5rem;
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        color: rgb(34, 34, 34);
+    }
+
+}
+
+;

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/navbar.css">
+
+</head>
+<body>
+    <!-- NAV BAR SECTION -->
+    <nav class="navbar">
+        <div class="nav-site-logo-container"><img
+                src="https://www.pngkey.com/png/detail/141-1416946_logos-what-is-a-generic-logo-transparent-background.png"
+                alt="image of site logo">
+        </div>
+
+        <div class="nav-site-name">Esports Manager</div>
+        <div class="nav-links">
+            <ul class="nav-signed-out-items">
+                <li><button>Sign Up</button></li>
+                <li><button>Log In</button></li>
+            </ul>
+            <ul class="nav-signed-in-items">
+                <li><input type="image"
+                        src="https://media.istockphoto.com/id/1223671392/vector/default-profile-picture-avatar-photo-placeholder-vector-illustration.jpg?s=612x612&w=0&k=20&c=s0aTdmT5aU6b8ot7VKm11DeID6NctRCpB755rA1BIP0="
+                        alt="profile icon"></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 
+        how many touranments are going down ? 
+        if multiple ask user how many then run that many forms 
+        else just run one form and save. 
+
+        if times and locations are the same ask user if its intentional
+        running concurrently or was it a mistake on the user's part? 
+        
+    -->
+    <form action="">
+        <fieldset>
+        <p>Select A Game:</p>
+    <!--How to place images instead and add feature to look up game-->
+        <input type="search" name="search" />
+        <input type="submit" value="Search" /><br/>
+        <select name="Games">
+            <option value="SSBU">Super Smash Bros Ultimate</option>
+            <option value="MK1">Mortal Kombat 1</option>
+            <option value="OW2">Overwatch 2</option>
+            <option value="VAL">Valorant</option>
+            <option value="RL">Rocket League</option>
+
+        </select>
+
+        <!--
+            Select what type of gaming platform...
+            ie xbox, gamecube, pc, etc. 
+
+        -->
+        
+        
+        <!--type of bracket: 
+            single elim
+            double elim
+            etc...
+
+            add img or auto moving imgs on how the brackets work. 
+        -->
+        <p>Type of bracket:</p>
+        <select name="Games">
+            <option value="Single">Single Elimination</option>
+            <option value="Double">Double Elimination</option>
+            <option value="Triple">Triple Elimination</option>
+            <option value="RR">Round Robin</option>
+
+        </select>
+
+        <!--type of ruleset
+            Depending on the game the ruleset will change, 
+            maybe some generic ones that most players would know
+            and then maybe hovering over the ruleset. 
+            
+        -->
+        <p>Ruleset</p>
+        <select name="Rulesets">
+        </select>
+
+    <!--
+        How many attendees will be joining
+        ONLY numbers entered in here anything else should 
+        result in an error
+    -->
+        <p>Number of Players:</p>
+        <input type="number" name="players">
+
+    <!--
+        Enter a value of 0 to whatever they want ig. wager 10k 
+        ONLY numbers entered in here anything else should 
+        result in an error
+    -->
+        <p>Commission:</p>
+        <input type="number" name="commission">
+        
+
+
+    
+
+    <!--
+        A swtich asking whether its online or offline
+        select LOCAL: user inputs the location details and 
+        any other extra details i.e. what booth? what table?
+
+        select ONLINE: user inputs any details about meeting up
+        i.e. discord or something that confirms the player will 
+        or is there
+    -->
+        <p>Location:</p>
+        <input type="radio" name="location" value="offline" checked="checked" /> Local 
+        <input type="radio" name="location" value="online"> Online <br/>
+
+
+        <p>Description: </p>
+        <textarea name="Extra Details" cols="30" rows="5">Extra Details... </textarea>
+
+        
+
+        </fieldset>
+    </form>
+</body>

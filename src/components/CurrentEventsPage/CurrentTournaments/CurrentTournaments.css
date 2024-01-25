@@ -1,0 +1,6 @@
+
+/* sorts data on current event screen */
+.current-tournaments-section {
+    display: flex;
+    justify-content: space-evenly;
+}

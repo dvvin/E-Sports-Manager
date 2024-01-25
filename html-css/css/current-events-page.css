@@ -1,0 +1,27 @@
+.banner-section {
+    width: 100%;
+    height: 25vh;
+    background-image: url("https://www.ytgraphics.com/wp-content/uploads/2020/09/valorant-final.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aliceblue;
+    border-bottom: 2px solid black;
+}
+
+.current-tournaments-label {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 10rem;
+    padding-top: 5rem;
+}
+
+.current-tournaments-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 5rem;
+}

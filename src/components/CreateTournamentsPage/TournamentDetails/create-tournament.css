@@ -1,0 +1,14 @@
+.tournament-container {
+    max-width: 700px;
+    margin: 150px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #f7f7f7;
+}
+
+.tournament-container label {
+    margin: 1rem 0 1rem 0;
+
+}

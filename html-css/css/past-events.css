@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.multi-img-carousel{
+    background-color: grey;
+    padding: 10px;
+}
+
+.carousel_slide{
+    width: 33%;
+    height: 350px;
+    margin:0 15px;
+    overflow: hidden ;
+    border-radius: 8px;
+}
+
+.carousel_slide img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}

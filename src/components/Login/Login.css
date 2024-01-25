@@ -1,0 +1,65 @@
+/* LoginStyles.css */
+
+.login-container {
+    max-width: 300px;
+    margin: 150px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    background-color: #f7f7f7;
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #9b5de5;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #7209b7;
+}
+
+.link-like-button {
+    background: none;
+    color: blue;
+    border: none;
+    padding: 0;
+    margin-left: 5px;
+    /* added margin for spacing */
+    font: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link-like-button:focus {
+    outline: auto;
+}

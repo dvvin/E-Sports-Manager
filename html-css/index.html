@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/create-join-buttons.css">
+    <link rel="stylesheet" href="css/current-events.css">
+    <link rel="stylesheet" href="css/future-events.css">
+    <link rel="stylesheet" href="css/past-events.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+
+    <title>Esports Manager</title>
+</head>
+
+<body>
+    <!-- NAV BAR SECTION -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-site-logo-container"><img
+                    src="https://www.pngkey.com/png/detail/141-1416946_logos-what-is-a-generic-logo-transparent-background.png"
+                    alt="image of site logo">
+            </div>
+    
+            <div class="nav-site-name">Esports Manager</div>
+            <div class="nav-links">
+                <ul class="nav-signed-out-items">
+                    <li><button>Sign Up</button></li>
+                    <li><button>Log In</button></li>
+                </ul>
+                <ul class="nav-signed-in-items">
+                    <li><input type="image" src="https://media.istockphoto.com/id/1223671392/vector/default-profile-picture-avatar-photo-placeholder-vector-illustration.jpg?s=612x612&w=0&k=20&c=s0aTdmT5aU6b8ot7VKm11DeID6NctRCpB755rA1BIP0=" alt="profile icon"></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- CREATE/JOIN EVENT BUTTONS -->
+    <section>
+        <div class="create-join-event-container">
+            <button class="page-button">Create Event</button>
+            <button class="page-button">Join Event</button>
+        </div>
+    </section>
+
+    <!-- CURRENT EVENT SECTION -->
+    <section>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="https://www.eriecbdd.org/wp-content/uploads/2020/07/Current-Events.png">
+            </div>
+
+            <div class="mySlides fade">
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmh17def2PbpJJvROcO03NfCIs4tffT6KDGQ&usqp=CAU">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <script src="js/slideshow.js"></script>
+        </div>
+    </section>
+
+    <!-- FUTURE EVENT SECTION -->
+    <section class="container1">
+
+        <div class="carousel">
+            <button class="carousel_button carousel_button--left">
+                <img src="https://th.bing.com/th/id/R.61141402b70ac2071a7fb3102de35cd0?rik=1XuMD73Mz1dGGQ&pid=ImgRaw&r=0" />
+            </button>
+            <div class="carousel_track-container">
+                <ul class="carousel_track">
+                    <li class="carousel_slide">
+                        <img class="carousel_img" src="https://th.bing.com/th/id/R.01f9be275f6465e02b454dca581889a1?rik=B0gCaCc3%2bwsKdg&pid=ImgRaw&r=0" />
+                    </li>
+                    <li class="carousel_slide">
+                        <img class="carousel_img" src="https://i.ytimg.com/vi/5olvW7WVVgY/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-BIAC6AKKAgwIABABGGIgYihiMA8=&rs=AOn4CLDxjXlRIFOPVmgihK5sv8dpzT6trw" />
+                    </li>
+                    <li class="carousel_slide">
+                        <img class="carousel_img" src="https://th.bing.com/th/id/R.c7d89647b3499d3b38c5c31b7b11d718?rik=iEiQCkj2BdHoOg&riu=http%3a%2f%2fwww.mca.k12.pa.us%2fwp%2fmcaes%2fwp-content%2fuploads%2fsites%2f3%2f2020%2f07%2fpaint-splashes-frame-with-text-upcoming-events-vector-20849833-e1594918329285.jpg&ehk=ey1o%2bm9yGjLh0tsahQS84y0T%2bDy2hSlmNXFSaopZ%2b3w%3d&risl=&pid=ImgRaw&r=0" />
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel_button carousel_button--right">
+                <img src="https://th.bing.com/th/id/OIP.JnEjx5KxC6NEVUtI01rHawAAAA?pid=ImgDet&rs=1" />
+            </button>
+
+            <div class="carousel_nav">
+                <button class="carousel_indicator current-slide"></button>
+                <button class="carousel_indicator"></button>
+                <button class="carousel_indicator"></button>
+            </div>
+        </div>
+        <script src="carouselF.js"></script>
+    </section>
+
+    <!-- PAST EVENT SECTION -->
+    <section>
+        <h3>PAST EVENTS</h3>
+        <div class="multi-img-carousel">
+            <div class="carousel_button"></div>
+
+            <div class="carousel_slide"><img src="https://cdn.geekwire.com/wp-content/uploads/2018/12/super-smash-bros.jpg" alt="" ></div>
+            <div class="carousel_slide"><img src="https://upload.wikimedia.org/wikipedia/en/5/5b/Mortal_Kombat_1_key_art.jpeg" alt=""></div>
+            <div class="carousel_slide"><img src="https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc655d62fc92e4acd/649bdd9094be10f2698941ed/071123_Val_EP7_China_CG_Banner.jpg?auto=webp&disable=upscale&height=549" alt=""></div>
+            <div class="carousel_slide"><img src="https://m.media-amazon.com/images/M/MV5BMjFkNjk3MjktMmU2Ny00MDlmLWE5ZTctM2Y4ZDU4YzkwMjFiXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_.jpg" alt=""></div>
+            <div class="carousel_slide"><img src="https://static.tweaktown.com/news/16x9/90313_report-call-of-duty-2023-will-be-full-game-with-campaign.png" alt="" ></div>
+
+            <div class="carousel_button"></div>
+        </div>
+        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        <script type="text/javascript">
+        $('.multi-img-carousel').flickity({
+            // options
+            cellAlign: 'left',
+            wrapAround: true,
+            freeScroll: true
+        });
+        </script>
+    </section>
+
+
+
+
+</body>
+
+</html>

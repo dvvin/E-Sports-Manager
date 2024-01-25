@@ -1,0 +1,41 @@
+.event-box-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10rem 0 10rem;
+}
+
+
+.tournament-category-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    margin-bottom: 2rem
+}
+
+.tournament-category-header {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn.view-all {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    height: 100%;
+    text-align: center;
+}
+
+.btn.btn.view-all:hover {
+    cursor: pointer;
+    color: #0077b6;
+}
+
+.tournament-card-display {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}

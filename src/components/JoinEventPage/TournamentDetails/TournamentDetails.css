@@ -1,0 +1,76 @@
+.description-rules-container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: beige;
+    width: 75%;
+    white-space: pre-line;
+    background-color: #BACDCE;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.info-seperator {
+    background-color: black;
+    height: 0.25rem;
+}
+
+/* @media (min-width: 1260px) {
+    .tournament-description-container h2 {
+        margin-left: 4rem;
+    }
+}
+
+@media (min-width: 2560px) {
+    .tournament-description-container h2 {
+        margin-left: 7rem;
+    }
+} */
+
+
+
+@media (max-width: 950px) {
+    .description-rules-conatainer {
+
+        width: 50%;
+    }
+
+    .tournament-description-container h2 {
+        margin: 0;
+    }
+}
+
+.tournament-description-container h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.tournament-description-container {
+    padding: 1rem;
+    /* white-space: pre-wrap; */
+    /* white-space: break-space; */
+}
+
+.tournament-rule-container h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.tournament-rule-container {
+    padding: 1rem;
+}
+
+.tournament-prize-container h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.tournament-prize-container {
+    padding: 1rem;
+
+}
+
+.info-seperator {
+    margin-top: 1rem;
+}

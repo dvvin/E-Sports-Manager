@@ -1,0 +1,78 @@
+.browse-game-header {
+    padding-top: 1rem;
+    position: relative;
+    text-align: center;
+    top: 5vh;
+    color: white;
+    font-size: 3.5rem;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.game-cards-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    gap: 4rem;
+    margin-top: 5rem;
+    width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.browse-games-subheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5rem;
+    background-color: #6c757d;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+}
+
+.seach-game-container {
+    display: flex;
+    height: 100%;
+}
+
+.seach-game-container span {
+    position: relative;
+    top: 0.25rem;
+    left: 2rem;
+    font-size: 1.75rem;
+    color: black;
+}
+
+.sort-by-label {
+    font-size: 2rem;
+}
+
+.search-game-input {
+    width: 10rem;
+    height: 1.75rem;
+    padding-left: 2rem;
+}
+
+.sort-by-container {
+    display: flex;
+    gap: 1rem;
+    height: 100%;
+}
+
+
+@media (max-width: 1200px) {
+    .game-cards-section {
+        gap: 3rem;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .game-cards-section {
+        gap: 1rem;
+    }
+}

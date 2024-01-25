@@ -1,0 +1,405 @@
+.upload-profile-picture-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+
+}
+
+
+.upload-profile-picture-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.btn.upload-profile-picture {
+    width: 15rem;
+    height: 2rem;
+    margin: 1rem 1rem 1rem 0;
+    background-color: #adb5bd;
+    color: white;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.10s;
+
+}
+
+.delete-profile-picture {
+    /* position: relative;
+    top: 0.6rem;
+    right: 0.8rem; */
+    padding: 1rem;
+    background: none;
+    border: none;
+}
+
+.material-symbols-outlined {
+    font-size: 2rem;
+    color: #d62828;
+    transition: color 0.10s;
+
+}
+
+.material-symbols-outlined:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+.btn.upload-profile-picture:hover {
+    cursor: pointer;
+    background-color: #adb5bd7c;
+}
+
+.profile-picture-upload-text {
+    position: relative;
+    font-size: 1rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    bottom: 0.75rem;
+    padding-left: 1rem;
+}
+
+.profile-picture-container {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    padding: 1rem;
+
+}
+
+.profile-picture-container .profile-picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.profile-settings-header {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.edit-profile-picture-header {
+    text-align: left;
+    position: relative;
+    right: 9rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    margin-left: 10rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.profile-picture-settings-panel-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #6c757d;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+
+.upload-banner-buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.btn.upload-banner {
+    width: 15rem;
+    height: 2rem;
+    margin: 1rem 1rem 1rem 0;
+    background-color: #adb5bd;
+    color: white;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.10s;
+}
+
+.btn.upload-banner:hover {
+    cursor: pointer;
+    background-color: #adb5bd7c;
+}
+
+.delete-profile-banner {
+    padding: 1rem;
+    background: none;
+    border: none;
+}
+
+.upload-banner-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.upload-banner-text {
+    position: relative;
+    font-size: 1rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    bottom: 0.75rem;
+}
+
+.profile-banner-container {
+    width: 300px;
+    height: 150px;
+    padding: 1rem;
+}
+
+.profile-banner-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.edit-profile-banner-panel {
+    display: flex;
+    flex-direction: row;
+    background-color: #6c757d;
+    margin: 1rem;
+    border: 1px solid black;
+}
+
+
+.edit-profile-banner-header {
+    text-align: left;
+    position: relative;
+    right: 9rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    margin-left: 10rem;
+    margin-bottom: 1.5rem;
+}
+
+.edit-profile-username-panel {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: #6c757d;
+    color: white;
+
+}
+
+.username-input-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.username-input-form-container input[type=text] {
+    background-color: #dee2e6;
+    font-family: "Poppins", sans-serif;
+}
+
+.username-detail-text {
+    font-family: "Poppins", sans-serif;
+}
+
+.username-label {
+    font-family: "Poppins", sans-serif;
+
+}
+
+.edit-profile-bio-panel {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 13.75rem;
+    border: 1px solid black;
+    background-color: #6c757d;
+    color: white;
+
+}
+
+.bio-label {
+    font-family: "Poppins", sans-serif;
+}
+
+.bio-input-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.bio-input-form-container textarea {
+
+    background-color: #dee2e6;
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.edit-email-address-panel {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 8.35rem;
+    border: 1px solid black;
+    font-family: "Poppins", sans-serif;
+    background-color: #6c757d;
+    color: white;
+
+}
+
+
+.email-input-form-container input[type=email] {
+    font-family: "Poppins", sans-serif;
+    background-color: #dee2e6;
+
+}
+
+.email-input-form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.save-changes-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1rem;
+    border: 1px solid black;
+    background-color: #a6adb4;
+
+}
+
+.btn.save-changes {
+
+    height: 2.5rem;
+    font: 1.5rem;
+    background-color: #9b5de5;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    transition: background-color 0.15s;
+}
+
+.btn.save-changes:hover {
+    cursor: pointer;
+    background-color: #7209b7;
+
+}
+
+.edit-profile-heading-container {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.edit-profile-info-header {
+    font-size: 2.5rem;
+}
+
+.dit-profile-info-subtext {
+    font: 0.75rem;
+}
+
+.edit-profile-information-section {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.profile-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.profile-buttons .btn.log-out {
+    width: 50%;
+    height: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    background-color: #3e92cc;
+    color: white;
+    transition: background-color 0.15s;
+}
+
+.profile-buttons .btn.log-out:hover {
+    cursor: pointer;
+    background-color: #004e98;
+}
+
+.profile-buttons .btn.delete-profile {
+    width: 50%;
+    height: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    background-color: #d62828;
+    color: white;
+    transition: background-color 0.15s;
+
+}
+
+.profile-buttons .btn.delete-profile:hover {
+    cursor: pointer;
+    background-color: #8d0801;
+}
+
+.profile-settings-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin: 5rem 15rem 5rem 15rem;
+
+}
+
+
+
+@media (max-width: 1440px) {
+    .profile-settings-container {
+        margin: 1rem 50rem 5rem 50rem;
+
+    }
+}
+
+@media (max-width: 1601px) {
+    .profile-settings-container {
+        margin: 1rem 25rem 5rem 25rem;
+
+    }
+}
+
+@media (max-width: 1200px) {
+    .profile-settings-container {
+
+        margin: 1rem 10rem 1rem 10rem;
+
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+
+    .profile-settings-container {
+
+        margin: 1rem 5rem 1rem 5rem;
+
+    }
+
+}

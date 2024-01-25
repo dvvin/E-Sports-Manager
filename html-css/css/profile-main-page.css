@@ -1,0 +1,203 @@
+.profile-images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.profile-background-image {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    height: 35vh;
+}
+
+.profile-background-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0 0 15px 15px;
+}
+
+.btn-edit-profile-background {
+    width: 7.5%;
+    position: absolute;
+    top: 35vh;
+    left: 65vw;
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    background-color: rgba(3, 3, 3, 0.397);
+    color: white;
+    border: none;
+    transition: background-color 0.25s;
+}
+
+.btn-edit-profile-background:hover {
+
+    background-color: rgba(248, 248, 248, 0.144);
+    cursor: pointer;
+
+}
+
+.profile-picture-container {
+    display: flex;
+    width: 17rem;
+    height: 17rem;
+    justify-content: flex-start;
+    margin-left: 27vw;
+    margin-right: 60vw;
+    position: relative;
+    bottom: 8vh;
+
+}
+
+.profile-picture-container img {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+.username-display {
+    position: relative;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    white-space: nowrap;
+    bottom: 8vh;
+}
+
+.profile-break {
+    margin-top: -5rem;
+    width: 45vw;
+}
+
+.about-me-header {
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 10rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.about-me-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 3rem;
+    margin: 0 9rem 1.5rem 9rem;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.my-tournaments-section h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-left: 10rem;
+    margin-bottom: 3.5rem;
+
+}
+
+.my-tournaments-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile-stats-header {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile-stats {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-content: center;
+    align-items: center;
+    padding: 2.5rem;
+    background-color: #c0bdbd;
+    margin-bottom: 1.5rem;
+}
+
+.profile-stats p {
+    text-align: left;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    margin: 1rem;
+}
+
+.profile-stats-section {
+    margin: 0 9rem 0 9rem;
+}
+
+
+.profile-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5rem 0 5rem;
+}
+
+@media (max-width: 1201px) {
+    .profile-picture-container {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 27vw;
+        margin-right: 60vw;
+        position: relative;
+        bottom: 8vh;
+    }
+
+    .profile-picture-container img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .my-tournaments-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .username-display {
+        bottom: 21vh;
+    }
+
+    .profile-break {
+        position: relative;
+        bottom: 11rem;
+        width: 45vw;
+    }
+
+    .profile-main-page-wrapper {
+        position: relative;
+        bottom: 9rem;
+    }
+}
+
+@media (max-width: 1201px) and (max-height: 1201px) {
+    .profile-break {
+        display: none;
+    }
+}
+/* @media (max-width: 1201px) {
+    .profile-page-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10rem 0 10rem;
+    }
+} */

@@ -1,0 +1,26 @@
+.tournament-information {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.desc-rules-attendee-list-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 5rem 5rem 2rem 5rem;
+}
+
+.bracket-display {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.bracket-description-seperator {
+    margin-top: 3rem;
+    
+}
+
+.load-join-page-container {
+    margin-top: 15vh;
+}
